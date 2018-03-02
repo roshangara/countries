@@ -1,0 +1,42 @@
+{
+  "name": "roshangara/countries",
+  "description": "countries model, databse and seeds",
+  "homepage": "https://github.com/roshangara/countries",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "roshangara",
+    "countries"
+  ],
+  "support": {
+    "issues": "https://github.com/roshangara/countries/issues",
+    "source": "https://github.com/roshangara/countries"
+  },
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.0",
+    "illuminate/database": "^5.0",
+    "roshangara/translatable": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roshangara\\Countries\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Roshangara\\Countries\\CountriesServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Taghikhani",
+      "email": "mroshangara@gmail.com",
+      "homepage": "http://roshangara.ir"
+    }
+  ],
+  "minimum-stability": "dev"
+}
